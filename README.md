@@ -33,3 +33,5 @@ git push heroku master
 ```
 
 You'll need to swap `$secret` for some abritrary secret value and include this in the webhook config (explained next). I'm currently using a [personal access token](https://github.com/settings/tokens/new), which you need to replace `$token` with.
+
+Then you should be done.
