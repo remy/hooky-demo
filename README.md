@@ -28,8 +28,10 @@ Assuming a Heroku account is active, here's what you need to do:
 
 ```bash
 heroku create
-heroku config set SECRET=$secret TOKEN=$token
+heroku config:set SECRET=$secret TOKEN=$token
 git push heroku master
 ```
 
 You'll need to swap `$secret` for some abritrary secret value and include this in the webhook config (explained next). I'm currently using a [personal access token](https://github.com/settings/tokens/new), which you need to replace `$token` with.
+
+Then you should be done.

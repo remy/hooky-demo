@@ -1,7 +1,6 @@
 {
   "name": "rem-hooky-demo",
-  "version": "1.0.0",
-  "description": "",
+  "description": "just a test package",
   "main": "index.js",
   "scripts": {
     "start": "node .",
