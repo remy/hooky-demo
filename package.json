@@ -14,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "engine": {
+  "engines": {
     "node": 5
   },
   "bugs": {
