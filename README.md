@@ -28,7 +28,7 @@ Assuming a Heroku account is active, here's what you need to do:
 
 ```bash
 heroku create
-heroku config set SECRET=$secret TOKEN=$token
+heroku config:set SECRET=$secret TOKEN=$token
 git push heroku master
 ```
 
